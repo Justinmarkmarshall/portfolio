@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+box-sizing {
+    border-box;
+}
+
+
+/* SCROLLSPY */
+
+body {
+
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+
+/* NAVBAR STARTS */
+
+
+#pic {
+
+    margin-top: -10px;
+    margin-bottom: -7px;
+    height: 46px;
+    border-radius: 50%;
+
+}
+
+.nav-link {
+
+	font-size: 25px;
+    padding-right: 2.5rem !important;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bg {
+    background-color:#0481c1 !important;
+}
+
+.active {
+    color: white;
+}
+
+/* NAVBAR ENDS */
+
+/* JUMBOTRON */
+
+.jumbotron {
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 0px !important;
+    border-radius: 0 !important;
+   
+}
+
+#home {
+    height: 100vh;
+    background-image: linear-gradient(to top right,
+        rgba(4, 130, 193, 0.801),
+        rgba(7, 240, 133, 0.801)), 
+        url(imgs/Background.JPG);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0,100% 0, 100% 85vh, 0 100%);
+}
+
+.lead {
+    font-size: 1.5em;
+}
+
+#black {
+
+    color: black;
+
+}
+
+/* CAROUSEL */
+
+
+#carousel {
+
+	margin-bottom: 67px;
+    margin-top: 67px;
+}
+
+.carousel-item:hover {
+
+	cursor: pointer;
+
+}
+
